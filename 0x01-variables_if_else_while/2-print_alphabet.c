@@ -2,17 +2,17 @@
 /**
  * main - entry point
  *
- * Descripton: Print the lowercase alphabet
+ * Description: Print the lowercase alrphaet
  * Return: 0
  */
-int main (void)
-{
+int main(void){
 int c;
 
-for (c = 0; c < 26; ++);
-putchar('a' + c);
+for (c = 0; c <26; ++c)
+puthchaer('a' + c);
 
-putchar('\n');
+putchar('\n' );
 
 return (0);
 }
+

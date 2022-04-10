@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main -entry point
+ *
  * Description: print lower and upper alphabet on the same line
  * Return: 0
  */
@@ -16,3 +17,4 @@ putchar('A' + c);
 putchar('\n');
 
 return (0);
+}

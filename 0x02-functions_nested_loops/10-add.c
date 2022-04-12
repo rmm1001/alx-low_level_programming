@@ -2,7 +2,7 @@
 
 /**
  * add . Adds two integres.
- * @num1: the first interger to be added.
+ * @numb1: the first interger to be added.
  * @numb2: the second integer to be added.
  *
  * Return: The result of the addition.

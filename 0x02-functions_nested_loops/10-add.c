@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add . Adds two integres.
+ * add . Adds two integers.
  * @num1: the first interger to be added.
  * @num2: the second integer to be added.
  *

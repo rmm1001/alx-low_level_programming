@@ -2,12 +2,12 @@
 
 /**
  * add . Adds two integres.
- * @numb1: the first interger to be added.
- * @numb2: the second integer to be added.
+ * @num1: the first interger to be added.
+ * @num2: the second integer to be added.
  *
  * Return: The result of the addition.
  */
-int ads(int numb1, int numb2)
+int ads(int num1, int num2)
 {
-return (numb1 + numb2);
+return (num1 + num2);
 }

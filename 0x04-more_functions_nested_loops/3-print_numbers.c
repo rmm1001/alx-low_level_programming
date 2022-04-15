@@ -2,16 +2,20 @@
 
 /**
  * print_number - prints numbers from 0 to 9
- * Return: void
+ * 
+ * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
 {
-	int counter;
 
-	for (counter = 48; counter <=57; counter++)
-	{
-		_putchar(counter);
-	}
-	_putcahr('\n');
+int i;
+
+i = 0;
+
+for (i = c; i < 10; i++)
+
+_putchar(i + '0');
+
+_putchar ('\n');
 }

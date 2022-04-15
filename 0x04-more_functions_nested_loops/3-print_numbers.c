@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
- * print_number - prints the number zero to nine
- *
- * Return: Always 0 (Success)
+ * print_number - prints numbers from 0 to 9
+ * Return: void
  */
 
 void print_numbers(void)
 {
+	int counter;
 
-int i;
-
-i = 0;
-
-for (i =0; i < 10; i++)
-
-_putchar(i + 'a');
-
-_putchar('\n');
+	for (counter = 48; counter <=57; counter++)
+	{
+		_putchar(counter);
+	}
+	_putcahr('\n');
 }

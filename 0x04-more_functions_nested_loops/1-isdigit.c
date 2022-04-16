@@ -1,4 +1,6 @@
 #include "main"
+#include <stdio.h>
+
 /**
  * _isdigit - ckeck if the no is b/n 0 to 9
  * @c: input no

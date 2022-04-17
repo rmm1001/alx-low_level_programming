@@ -1,20 +1,19 @@
-#include "main"
-#include <stdio.h>
-
+#include "main.h"
 /**
- * _isdigit - ckeck if the no is b/n 0 to 9
- * @c: input no
- * Return: 1 is is a number (0 to 9), 0 in other case.
+ * _isdigit - if is a digit
+ * @c: print int
+ * Return: Always 0.
  */
+
 int _isdigit(int c)
 {
-if (c >= 48 && c <=)
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
+
 else
 {
 return (0);
 }
-_putchar('\n')
 }

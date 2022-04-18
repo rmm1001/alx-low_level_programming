@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * ptint_diagonal - print diagonal line
- * @n: print int
- * Return: Always 0.
+ * print_diagonal - print diagonal line
+ * @n: limit
+ * Return: void
  */
 
 void print_diagonal(int n)

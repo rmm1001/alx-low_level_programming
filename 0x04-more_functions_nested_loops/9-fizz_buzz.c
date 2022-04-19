@@ -12,26 +12,30 @@ int i;
 
 for (i =1; i <= 100; i++)
 {
-if (i % 3 == 0 && i % 5 ! =0)
+if (i % 3 == 0 && i % 5 == 0)
 {
-printf("Fizz");
+printf("%s" , "Fizz");
 }
-else if (i % 3 != 0 && i % 5 == 0)
+else if (i % 3 == 0 || i % 5 == 0)
 {
-printf("Buzz");
+if (i % 3 == 0)
+{
+printf("%s" , "Buzz");
 }
-else if (i % 3 == 0 && i % 5 == 0)
+else
 {
 printf("fizzBuzz");
+}
 }
 else
 {
 printf("%d", i);
 }
 if (i != 100)
-putchar(' ');
-else
-putchar('\n');
+{
+printf(" ");
 }
+}
+printf('\n');
 return (0);
 }

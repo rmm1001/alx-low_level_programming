@@ -26,7 +26,7 @@ printf("fizzBuzz");
 }
 else
 {
-print("%d", i);
+printf("%d", i);
 }
 if (i != 100)
 putchar(' ');

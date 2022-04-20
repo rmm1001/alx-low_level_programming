@@ -2,18 +2,17 @@
 
 /**
  * swap_int - swap the velue of two integers a and b
- * @a: input parameter 1
- * @b: input parameter 2
- *
+ * @a: integer
+ * @b: integer
  * Return: Always 0.
  */
-
 void swap_int(int *a, int *b)
 {
-	int temp;
+	int n;
 
-	temp = *a;
+	n = *a;
 	*a = *b;
-	*b = temp;
+	*b = n;
 	return;
+
 }

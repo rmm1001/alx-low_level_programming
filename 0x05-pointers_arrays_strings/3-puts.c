@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
  * _puts - prints a string
@@ -15,7 +14,7 @@ void _puts(char *str)
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
-		i++
+		i++;
 	}
 	_putchar('\n');
 }

@@ -23,7 +23,7 @@ int _atoi(char *s)
 	while ((s[j] >= '0') && (s[j] <= '9'))
 	{
 		n = (n * 10) + x * ((s[j]) - '0');
-		j++
+		j++;
 	}
 	return (n);
 }

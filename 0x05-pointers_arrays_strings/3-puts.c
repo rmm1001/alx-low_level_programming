@@ -1,20 +1,21 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * _puts - prints a string
- * @str: Apointer to an int that will be changed 
+ * @str: A pointer to an int that will be changed
  *
  * Return: void
  */
 
-void _puts(char *str);
+void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
+		i++
 	}
 	_putchar('\n');
-	return;
 }

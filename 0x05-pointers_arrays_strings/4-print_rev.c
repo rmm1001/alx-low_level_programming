@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * print_rev - prints a string in reverse oerder
- * @s: A pointer to an int that will be changed
+ * @S: A pointer to an int that will be changed
  *
  * Return: void
  */
@@ -15,3 +16,11 @@ void print_rev(char *s)
 	{
 		i++;
 	}
+
+	for (i = i - 1; i >= 0; 1--)
+	{
+		_putchar (s[i]);
+	}
+
+	_putchar ('\n');
+}

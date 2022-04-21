@@ -6,6 +6,7 @@
  *
  * Return: void
  */
+
 void rev_string(char *s)
 {
 	char *start_c, *end_c, c;

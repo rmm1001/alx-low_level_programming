@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * swap_int swap the value of two integers a and b
+ * swap_int - swap the values of two integers
+ * using two input parameters
  *
- * @a: A pointer will be updated
- * @b: B pointer will be updated
+ * @a: input parameter a
+ * @b: input parameter b
  *
- * Return: Always 0.
+ * Return: void
  */
 
 void swap_int(int *a, int *b)

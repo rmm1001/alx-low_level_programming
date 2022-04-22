@@ -17,7 +17,7 @@ int c, i;
 c = 0;
 
 /*find size of dest array*/
-while (dest [c])
+while (dest[c])
 c++;
 
 /**

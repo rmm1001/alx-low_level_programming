@@ -22,7 +22,7 @@ trigger = 1;
 }
 if (trigger)
 {
-if (s[x] > 96 && s[x] < 123}
+if (s[x] > 96 && s[x] < 123)
 {
 s[x] -= 32;
 trigger = 0;
@@ -32,4 +32,6 @@ trigger = 0;
 else if (s[x] > 47 && s[x] < 58)
 trigger = 0;
 }
+}
+return (s);
 }

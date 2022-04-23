@@ -10,7 +10,15 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
+<<<<<<< HEAD
 void print_numbers(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *, int zise);
+=======
+void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
+int _putchar(char);
+
+>>>>>>> cae283576e3bc82bcff51a3df6ec06ccf7a7490d
 #endif

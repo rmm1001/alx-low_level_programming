@@ -9,7 +9,12 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
- * print a[2] = 98
+ * Line of code
+ * Remeber:
+ * - you are not allowed to use a
+ * - you are not alowed to modify p
+ * - only one statement
+ *   you are not allowed to code anything else than this line of code
  */
 p[5] = 98;
 /* so that this prints 98\n */

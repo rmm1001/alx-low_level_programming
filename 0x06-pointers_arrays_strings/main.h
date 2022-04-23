@@ -10,7 +10,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
-void print_numbers(int n);
+void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *, int zise);
 int _putchar(char);

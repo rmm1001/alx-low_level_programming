@@ -1,20 +1,24 @@
 #include "main.h"
-
 /**
- * _strcpm - function that compare two strings
- * @s1: string to be compared
- * @s2: string to be compared
- * Return: negative if s1 < s2; 0 if mathcing and positive int if s1 > s2
+ *_strcmp - compares two strings
+ *@s1: A pointer to a character that will be changed
+ *@s2: A pointer to a character that will also be changed/modified/updated
+ *Return: dest
  */
 
-int _strcmp(char *s1, char *s2);
-{
-int x;
+int _strcmp(char *s1, char *s2)
 
-for (x = 0; s1[x] != '\0' || s2[x] != '\0'; x++)
 {
-if  (s1[x] != s2[x])
-return (s1[x] - s2[x]);
+
+char *str_one = s1;
+char *str_two = s2;
+
+
+while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
+{
+str_one++;
+str_two++;
 }
-return (0);
+
+return (*str_one - *str_two);
 }

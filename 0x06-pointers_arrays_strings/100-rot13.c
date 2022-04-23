@@ -22,7 +22,7 @@ if (*(s + count) == alphabet[i])
 break;
 }
 }
-count++;
+count++
 }
 return (s);
 }

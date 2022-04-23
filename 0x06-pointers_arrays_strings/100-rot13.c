@@ -5,7 +5,7 @@
  * Return: Always 0.
  */
 
-char *rot(char *s)
+char *rot13(char *s)
 {
 int count = 0, i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

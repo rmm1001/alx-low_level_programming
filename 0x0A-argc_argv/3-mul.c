@@ -6,9 +6,9 @@
  * main - prints the multiplication of two integers
  * @argc: argument count
  * @argv: argument vector
- * Return: 0 if is true, 1 if is false
+ * Return: 0 if true, 1 if false
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 int a, b;
 if (argc == 3)

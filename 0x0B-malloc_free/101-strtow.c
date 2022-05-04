@@ -102,7 +102,3 @@ int countWords(char *s)
 	}
 	return (words);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-S

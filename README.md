@@ -1,1 +1,1 @@
-This isa respositor for introduction to C programming.
+This is a respositor for introduction to C programming.

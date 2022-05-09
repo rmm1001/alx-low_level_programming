@@ -23,6 +23,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	}
 
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
